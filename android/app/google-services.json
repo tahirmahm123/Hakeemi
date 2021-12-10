@@ -1,41 +1,34 @@
 {
   "project_info": {
-    "project_number": "559792786123",
-    "project_id": "hakeemi",
-    "storage_bucket": "hakeemi.appspot.com"
+    "project_number": "700944630587",
+    "project_id": "hakeemiapp",
+    "storage_bucket": "hakeemiapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:559792786123:android:b309404c9111b56662e94e",
+        "mobilesdk_app_id": "1:700944630587:android:57ae8177b5d9a10033ed1e",
         "android_client_info": {
-          "package_name": "com.Hakeemi"
+          "package_name": "com.hakeemi"
         }
       },
       "oauth_client": [
         {
-          "client_id": "559792786123-fkp6qhsr0aumk28133tehn9ebvr0r2ga.apps.googleusercontent.com",
+          "client_id": "700944630587-93hm1klgj4d40pafq6ocfhsjos0srs8m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDioUE8w_aOsU_lg3NuyZWxd43uWsrYk2w"
+          "current_key": "AIzaSyAk72PzhVEaJo0PhumdM-Bw4DEb4tFF5wc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "559792786123-fkp6qhsr0aumk28133tehn9ebvr0r2ga.apps.googleusercontent.com",
+              "client_id": "700944630587-93hm1klgj4d40pafq6ocfhsjos0srs8m.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "559792786123-mq519jkj6jpsp5anvh5ur2k9rf2pl1dd.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.Hakeemi"
-              }
             }
           ]
         }

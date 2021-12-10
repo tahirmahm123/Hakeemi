@@ -1,4 +1,4 @@
-package com.Hakeemi;
+package com.hakeemi;
 
 import com.facebook.react.ReactActivity;
 

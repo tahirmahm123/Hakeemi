@@ -132,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.Hakeemi"
+        applicationId "com.hakeemi"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

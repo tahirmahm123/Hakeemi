@@ -20,18 +20,15 @@ const SignUp: FC = () => {
   const toastMessage = useToastMessage();
 
   const handleLogin = () => {
-    login(email, password).catch(error => toastMessage.error(error));
+    login(email, password).catch(error => {
+      throw error;
+      //  toastMessage.error(error)
+    });
   };
 
   return (
     <View style={styles.container}>
       <Icon style={styles.back} name="left-arrow" size={24} onPress={goBack} />
-      <HomeBgPattern
-        style={styles.background}
-        height="100%"
-        width="100%"
-        preserveAspectRatio="xMinYMin slice"
-      />
       <View style={styles.paper}>
         <Text size="head-30" color="black" align="center" style={styles.title}>
           {t('title')}

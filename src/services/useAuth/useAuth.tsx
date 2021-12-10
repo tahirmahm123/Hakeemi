@@ -48,7 +48,8 @@ const useAuth = () => {
         avatar: '',
       });
     } catch (error) {
-      throw getErrorMessage(error.message);
+      throw error;
+      // throw getErrorMessage(error.message);
     } finally {
       setLoading(false);
     }

@@ -52,8 +52,7 @@ const AppStack = <R extends AppStackRouteName>({
               }}>
               <Image
                 source={{
-                  uri:
-                    'https://firebasestorage.googleapis.com/v0/b/hakeemi.appspot.com/o/person.png?alt=media&token=f5613d3f-58a2-4755-8152-1fc484537705',
+                  uri: 'https://firebasestorage.googleapis.com/v0/b/hakeemi.appspot.com/o/person.png?alt=media&token=f5613d3f-58a2-4755-8152-1fc484537705',
                   width: AVATAR_SIZE,
                   height: AVATAR_SIZE,
                 }}
@@ -79,8 +78,7 @@ const AppStack = <R extends AppStackRouteName>({
               }}>
               <Image
                 source={{
-                  uri:
-                    'https://firebasestorage.googleapis.com/v0/b/hakeemi.appspot.com/o/person.png?alt=media&token=f5613d3f-58a2-4755-8152-1fc484537705',
+                  uri: 'https://firebasestorage.googleapis.com/v0/b/hakeemi.appspot.com/o/person.png?alt=media&token=f5613d3f-58a2-4755-8152-1fc484537705',
                   width: AVATAR_SIZE,
                   height: AVATAR_SIZE,
                 }}

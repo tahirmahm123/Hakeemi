@@ -22,7 +22,8 @@ const SignUp: FC = () => {
 
   const handleSubmit = () => {
     register(name, email, password).catch(err => {
-      toastMessage.error(err);
+      throw err;
+      // toastMessage.error(err);
     });
   };
 
