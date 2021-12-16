@@ -13,14 +13,15 @@ import useToastMessage from '../../services/useToastMessage';
 
 const SignUp: FC = () => {
   const { t } = useTranslation('signIn');
-  const [email, setEmail] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [email, setEmail] = useState<string>('v2ray');
+  const [password, setPassword] = useState<string>('v2ray');
   const { navigate, goBack } = useNavigation();
   const { login } = useAuth();
   const toastMessage = useToastMessage();
 
   const handleLogin = () => {
     login(email, password).catch(error => {
+      console.log(error);
       throw error;
       //  toastMessage.error(error)
     });

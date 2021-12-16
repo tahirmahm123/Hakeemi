@@ -1,4 +1,4 @@
-import doctors from './doctors';
+import axios from './generic';
 import users from './users';
 
-export default { doctors, users };
+export { axios, users };
